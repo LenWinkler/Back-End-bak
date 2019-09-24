@@ -10,4 +10,6 @@ server.use(cors())
 const authenticate = require("../auth/auth-middleware.js")
 const authRouter = require("../auth/auth-router.js")
 
+server.use("/api/auth", authRouter)
+
 module.exports = server
