@@ -1,0 +1,23 @@
+{
+  "name": "back-end",
+  "version": "1.0.0",
+  "description": "Build Week 4 Project",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Build-Week-Conjugator-Sep-2019/Back-End.git"
+  },
+  "author": "Noor",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Build-Week-Conjugator-Sep-2019/Back-End/issues"
+  },
+  "homepage": "https://github.com/Build-Week-Conjugator-Sep-2019/Back-End#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "helmet": "^3.21.1"
+  }
+}
