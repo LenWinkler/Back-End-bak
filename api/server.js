@@ -9,7 +9,9 @@ server.use(cors())
 
 const authenticate = require("../auth/auth-middleware.js")
 const authRouter = require("../auth/auth-router.js")
+const verbsRouter = require("../conjugator-verbs/verbs-router.js")
 
 server.use("/api/auth", authRouter)
+server.use("/api/verbs", verbsRouter)
 
 module.exports = server
